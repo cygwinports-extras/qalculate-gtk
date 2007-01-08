@@ -1,0 +1,141 @@
+qalculate-gtk
+------------------------------------------
+Qalculate! is a multi-purpose desktop calculator for GNU/Linux. It is 
+small and simple to use but with much power and versatility underneath. 
+Features include customizable functions, units, arbitrary precision, 
+plotting, and a user-friendly interface (KDE or GTK+).
+
+This package contains the GTK+ frontend.
+
+Runtime requirements:
+  cygwin-1.5.23-2
+  gdk-pixbuf2-2.10.6-1
+  glib2-2.12.4-1
+  gtk2-x11-2.10.6-1
+  libcln4-1.1.13-1
+  libglade2-2.6.0-1
+  libgnome2-2.16.0-1
+  libintl8-0.15-1
+  libpopt0-1.10.4-1
+  libqalculate4-0.9.5-1
+  pango-1.14.9-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.23-2
+  autoconf2.5-2.60-2
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.8-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gnome-common-2.12.0-2
+  intltool-0.35.2-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://qalculate.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/qalculate/
+
+-------------------------------------------
+
+Build instructions:
+  unpack qalculate-gtk-0.9.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./qalculate-gtk-0.9.5-X.cygport all
+
+This will create:
+  /usr/src/qalculate-gtk-0.9.5-X-src.tar.bz2
+  /usr/src/qalculate-gtk-0.9.5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/qalculate-gtk.sh
+  /usr/bin/qalculate-gtk.exe
+  /usr/share/applications/qalculate-gtk.desktop
+  /usr/share/doc/Cygwin/qalculate-gtk-0.9.5.README
+  /usr/share/doc/qalculate-gtk-0.9.5/AUTHORS
+  /usr/share/doc/qalculate-gtk-0.9.5/COPYING
+  /usr/share/doc/qalculate-gtk-0.9.5/ChangeLog
+  /usr/share/doc/qalculate-gtk-0.9.5/INSTALL
+  /usr/share/doc/qalculate-gtk-0.9.5/NEWS
+  /usr/share/doc/qalculate-gtk-0.9.5/README
+  /usr/share/doc/qalculate-gtk-0.9.5/TODO
+  /usr/share/gnome/help/qalculate-gtk/C/appendixa.xml
+  /usr/share/gnome/help/qalculate-gtk/C/appendixb.xml
+  /usr/share/gnome/help/qalculate-gtk/C/appendixc.xml
+  /usr/share/gnome/help/qalculate-gtk/C/figures/calculation-history.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/calculator-buttons-screen.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/calculator-buttons.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/completion.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/convert-number-bases.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/convert-unit.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/edit-function.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/edit-functiongeneral.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/edit-matrix.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/edit-unit.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/edit-variable.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/function-manager.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/gnuplot.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/import-csv.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/insert-function-screen.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/insert-function.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/mainwindow-screen.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/mainwindow.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/plot-data.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/plot-settings.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/rpn-mode.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/store-variable.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/unit-manager.png
+  /usr/share/gnome/help/qalculate-gtk/C/figures/variable-manager.png
+  /usr/share/gnome/help/qalculate-gtk/C/legal.xml
+  /usr/share/gnome/help/qalculate-gtk/C/qalculate-gtk.xml
+  /usr/share/locale/nl/LC_MESSAGES/qalculate-gtk.mo
+  /usr/share/locale/sv/LC_MESSAGES/qalculate-gtk.mo
+  /usr/share/omf/qalculate-gtk/qalculate-gtk-C.omf
+  /usr/share/pixmaps/qalculate.png
+  /usr/share/qalculate-gtk/glade/about.glade
+  /usr/share/qalculate-gtk/glade/argumentrules.glade
+  /usr/share/qalculate-gtk/glade/csvexport.glade
+  /usr/share/qalculate-gtk/glade/csvimport.glade
+  /usr/share/qalculate-gtk/glade/datasetedit.glade
+  /usr/share/qalculate-gtk/glade/datasets.glade
+  /usr/share/qalculate-gtk/glade/decimals.glade
+  /usr/share/qalculate-gtk/glade/functionedit.glade
+  /usr/share/qalculate-gtk/glade/functions.glade
+  /usr/share/qalculate-gtk/glade/main.glade
+  /usr/share/qalculate-gtk/glade/matrix.glade
+  /usr/share/qalculate-gtk/glade/matrixedit.glade
+  /usr/share/qalculate-gtk/glade/namesedit.glade
+  /usr/share/qalculate-gtk/glade/nbases.glade
+  /usr/share/qalculate-gtk/glade/periodictable.glade
+  /usr/share/qalculate-gtk/glade/plot.glade
+  /usr/share/qalculate-gtk/glade/precision.glade
+  /usr/share/qalculate-gtk/glade/preferences.glade
+  /usr/share/qalculate-gtk/glade/setbase.glade
+  /usr/share/qalculate-gtk/glade/unit.glade
+  /usr/share/qalculate-gtk/glade/unitedit.glade
+  /usr/share/qalculate-gtk/glade/units.glade
+  /usr/share/qalculate-gtk/glade/unknownedit.glade
+  /usr/share/qalculate-gtk/glade/variableedit.glade
+  /usr/share/qalculate-gtk/glade/variables.glade
+
+------------------
+
+Port Notes:
+
+----- version 0.9.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
