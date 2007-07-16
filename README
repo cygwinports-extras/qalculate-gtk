@@ -8,29 +8,29 @@ plotting, and a user-friendly interface (KDE or GTK+).
 This package contains the GTK+ frontend.
 
 Runtime requirements:
-  cygwin-1.5.23-2
-  gdk-pixbuf2-2.10.6-1
-  glib2-2.12.4-1
-  gtk2-x11-2.10.6-1
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.13-1
+  glib2-2.12.12-2
+  gtk2-x11-2.10.13-1
   libcln4-1.1.13-1
-  libglade2-2.6.0-1
-  libgnome2-2.16.0-1
+  libglade2-2.6.1-1
+  libgnome2-2.18.0-1
   libintl8-0.15-1
   libpopt0-1.10.4-1
-  libqalculate4-0.9.5-1
-  pango-1.14.9-1
+  libqalculate4-0.9.6-1
+  pango-1.16.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.23-2
-  autoconf2.5-2.60-2
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.8-1
+  cygport-0.3.5-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  gnome-common-2.12.0-2
-  intltool-0.35.2-1
+  gnome-common-2.18.0-1
+  intltool-0.35.5-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
@@ -45,15 +45,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack qalculate-gtk-0.9.5-X-src.tar.bz2
+  unpack qalculate-gtk-0.9.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./qalculate-gtk-0.9.5-X.cygport all
+  cygport ./qalculate-gtk-0.9.6-X.cygport all
 
 This will create:
-  /usr/src/qalculate-gtk-0.9.5-X-src.tar.bz2
-  /usr/src/qalculate-gtk-0.9.5-X.tar.bz2
+  /usr/src/qalculate-gtk-0.9.6-X-src.tar.bz2
+  /usr/src/qalculate-gtk-0.9.6-X.tar.bz2
 
 -------------------------------------------
 
@@ -62,14 +62,14 @@ Files included in the binary package:
   /etc/postinstall/qalculate-gtk.sh
   /usr/bin/qalculate-gtk.exe
   /usr/share/applications/qalculate-gtk.desktop
-  /usr/share/doc/Cygwin/qalculate-gtk-0.9.5.README
-  /usr/share/doc/qalculate-gtk-0.9.5/AUTHORS
-  /usr/share/doc/qalculate-gtk-0.9.5/COPYING
-  /usr/share/doc/qalculate-gtk-0.9.5/ChangeLog
-  /usr/share/doc/qalculate-gtk-0.9.5/INSTALL
-  /usr/share/doc/qalculate-gtk-0.9.5/NEWS
-  /usr/share/doc/qalculate-gtk-0.9.5/README
-  /usr/share/doc/qalculate-gtk-0.9.5/TODO
+  /usr/share/doc/Cygwin/qalculate-gtk-0.9.6.README
+  /usr/share/doc/qalculate-gtk-0.9.6/AUTHORS
+  /usr/share/doc/qalculate-gtk-0.9.6/COPYING
+  /usr/share/doc/qalculate-gtk-0.9.6/ChangeLog
+  /usr/share/doc/qalculate-gtk-0.9.6/INSTALL
+  /usr/share/doc/qalculate-gtk-0.9.6/NEWS
+  /usr/share/doc/qalculate-gtk-0.9.6/README
+  /usr/share/doc/qalculate-gtk-0.9.6/TODO
   /usr/share/gnome/help/qalculate-gtk/C/appendixa.xml
   /usr/share/gnome/help/qalculate-gtk/C/appendixb.xml
   /usr/share/gnome/help/qalculate-gtk/C/appendixc.xml
@@ -132,6 +132,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.6-1 -----
+Version bump.
 
 ----- version 0.9.5-1 -----
 Initial release for Cygwin.
