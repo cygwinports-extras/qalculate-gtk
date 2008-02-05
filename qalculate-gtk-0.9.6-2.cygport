@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="Qalculate GNOME frontend"
+HOMEPAGE="http://qalculate.sourceforge.net/"
+SRC_URI="mirror://sourceforge/qalculate/${P}.tar.gz"
+PATCH_URI="mirror://portage/sci-calculators/${PN}/files/${P}-check-fix.patch"
