@@ -58,17 +58,14 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/qalculate-gtk.sh
   /usr/bin/qalculate-gtk.exe
   /usr/share/applications/qalculate-gtk.desktop
-  /usr/share/doc/Cygwin/qalculate-gtk-0.9.6.README
-  /usr/share/doc/qalculate-gtk-0.9.6/AUTHORS
-  /usr/share/doc/qalculate-gtk-0.9.6/COPYING
-  /usr/share/doc/qalculate-gtk-0.9.6/ChangeLog
-  /usr/share/doc/qalculate-gtk-0.9.6/INSTALL
-  /usr/share/doc/qalculate-gtk-0.9.6/NEWS
-  /usr/share/doc/qalculate-gtk-0.9.6/README
-  /usr/share/doc/qalculate-gtk-0.9.6/TODO
+  /usr/share/doc/qalculate-gtk/AUTHORS
+  /usr/share/doc/qalculate-gtk/COPYING
+  /usr/share/doc/qalculate-gtk/ChangeLog
+  /usr/share/doc/qalculate-gtk/NEWS
+  /usr/share/doc/qalculate-gtk/README
+  /usr/share/doc/qalculate-gtk/TODO
   /usr/share/gnome/help/qalculate-gtk/C/appendixa.xml
   /usr/share/gnome/help/qalculate-gtk/C/appendixb.xml
   /usr/share/gnome/help/qalculate-gtk/C/appendixc.xml
@@ -132,14 +129,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.9.6-2 -----
-Rebuilt for CLN 1.2.
-
------ version 0.9.6-1 -----
-Version bump.
-
------ version 0.9.5-1 -----
-Initial release for Cygwin.
+----- version 0.9.6-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

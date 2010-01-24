@@ -1,0 +1,13 @@
+--- origsrc/qalculate-gtk-0.9.7/configure.in	2010-01-05 09:43:49.000000000 -0600
++++ src/qalculate-gtk-0.9.7/configure.in	2010-01-23 22:26:06.035229000 -0600
+@@ -70,8 +70,8 @@ PKG_CHECK_MODULES(GLIB, [
+ AC_SUBST(GLIB_CFLAGS)
+ AC_SUBST(GLIB_LIBS)
+ 
+-QALCULATE_GTK="qalculate-gtk"
+-LN_QALCULATE="qalculate-gtk"
++QALCULATE_GTK="qalculate-gtk\$(EXEEXT)"
++LN_QALCULATE="qalculate-gtk\$(EXEEXT)"
+ 
+ PKG_CHECK_MODULES(GTK, [
+ 	gtk+-2.0 >= 2.4
