@@ -1,0 +1,16 @@
+inherit gnome2
+
+NAME="qalculate-gtk"
+VERSION=0.9.7
+RELEASE=1
+CATEGORY="Math"
+SUMMARY="Multi-purpose calculator library (GTK frontend)"
+DESCRIPTION="Qalculate! is a multi-purpose desktop calculator for GNU/Linux.
+It is small and simple to use but with much power and versatility underneath.
+Features include customizable functions, units, arbitrary precision, plotting,
+and a user-friendly interface (KDE or GTK+)."
+HOMEPAGE="http://qalculate.sourceforge.net/"
+SRC_URI="mirror://sourceforge/qalculate/${P}.tar.gz"
+PATCH_URI="0.9.7-exeext.patch"
+
+CYGCONF_ARGS="--without-libgnome"
